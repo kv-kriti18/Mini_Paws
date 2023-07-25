@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="w-100 bg-center vh-100" style="
+        /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-Ogsb9T3SxblKraFtV9JzJZo_rUsACQz9Q&usqp=CAU); */
+        background-size: cover; 
+        ">
+
+        <!-- navbar -->
+        <div class="m-auto" style="
+        width: 1280px;
+        height: 75px;
+        ">
+            <div class="icon">
+                <h2 class="logo custom_orange_fg">Mini Paw</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/MiniPaws/Home">HOME</a></li>
+                    <li><a href="/MiniPaws/MakeAdoption">ADOPT</a></li>
+                    <li><a href="/MiniPaws/Donate">DONATE</a></li>
+                    <li><a href="/MiniPaws/GiveFeedback">FEEDBACK</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To text">
+                <a href="#">
+                    <button class="btnsearch" style=" 
+                        width: 100px;
+                        height: 40px;
+                        background: #ff7200;
+                        border: 2px solid #ff7200;
+                        margin-top: 13px;
+                        color: #fff;
+                        font-size: 15px;
+                        border-bottom-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        transition: 0.2s ease;
+                        cursor: pointer;">
+                        Search
+                    </button>
+                </a>
+            </div> -->
+
+        </div>
+
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="product-image" style="width: 600px" src="https://picsum.photos/300/200?category=cats" alt="Product Image">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 id="pet-name" class="product-title">Product Name</h2>
+                        <div id="pet-breed" class="product-price">$99.99</div>
+                        <div>Gender: 
+                            <span id="pet-gender">
+                                Cotton
+                            </span>
+                        </div>
+                        <div>Animal Type:
+                            <span id="pet-animal-type">
+                                Cotton
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 order-md-1">
+                        <h4 class="mb-3">Billing address</h4>
+                        <form class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName">First name</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Valid first name is required.
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName">Last name</label>
+                                    <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                        Valid last name is required.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="address">Address</label>
+                                <input type="text" class="form-control" id="address" placeholder="1234 Main St"
+                                    required>
+                                <div class="invalid-feedback">
+                                    Please enter your shipping address.
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+                                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                            </div>
+
+                            <button id="adopt-pet" class="btn btn-primary btn-lg btn-block" type="submit">Adopt</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-distributed">
+
+            <div class="footer-left">
+                <h3>Mini<span>Paw</span></h3>
+
+                <p class="footer-links">
+                    <a href="#">Home</a>
+                    |
+                    <a href="#">About</a>
+                    |
+                    <a href="#">Contact</a>
+                    |
+                    <a href="#">Donate</a>
+                </p>
+
+                <p class="footer-company-name">Copyright © 2023 <strong>Mini Paw</strong> All rights reserved</p>
+            </div>
+
+            <div class="footer-center">
+                <div>
+                    <img src="/images/location.jfif"></img>
+                    <p><span>Nigdi</span>
+                        Pune</p>
+                </div>
+
+                <div>
+                    <img src="/images/contact'.png"></img>
+                    <p>+91 74**9**258</p>
+                </div>
+                <div>
+                    <img src="/images/message.png"></img>
+                    <p><a href="">minipaw@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-company-about">
+                    <span>Our Mission</span>
+                    Our mission is to make pet ownership as easy and enjoyable as
+                    possible by offering a wide selection of products, excellent customer service, and a convenient
+                    online
+                    shopping experience.
+                </p>
+                <div class="footer-icons">
+                    <a href="#"><img src="/images/facebook.png"></img></a>
+                    <a href="#"><img src="/images/twiter.png"></a>
+                    <a href="#"><img src="/images/skype.png"></a>
+                    <a href="#"><img src="/images/instagram.png"></a>
+                    <a href="#"><img src="/images/google.png"></i></a>
+                </div>
+            </div>
+        </div>
+
+</body>
+    <script type="text/javascript" src="index.js"></script>
+</html>
